@@ -6,7 +6,7 @@ A naive Julia implementation of the NASA JPL mars rover coding game using the ze
 2. Download and install Julia from http://julialang.org/downloads (for Windows 10 users, I highly recommend installing through the Windows store instead)
 3. Open a Julia REPL, and change the working directory to this one (where the MarsRoverGame.jl, Project.toml, and Manifest.toml files reside)
 4. In the Julia REPL, type `]` to go into the (awesome built-in) `Pkg` Package manager
-5. Do the following:
+5. Do the following to create a local environment and reproduce the setup. Only the necessary dependencies in their correct version will be brought in.
 ```
 pkg> activate .
 pkg> instantiate
